@@ -106,6 +106,7 @@ def keyGenerator():
         file.write(newkey(32) + "\n")
         process += 1
         print(f"Сгенерировано: {process}")
+    file.close()
     input()
 
 #меню выбора функций.
